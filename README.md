@@ -1,10 +1,8 @@
-# Calculadora-POO
-
-## Visão Geral
-Este projeto consiste em uma calculadora simples que executa operações matemáticas básicas como adição, subtração, multiplicação e divisão. O foco do projeto é aplicar os conceitos de orientação a objetos em Python utilizando o padrão de projeto Strategy, juntamente com a implementação de uma interface de usuário interativa com o framework React.js.
+# Visão Geral
+Este projeto consiste em uma calculadora simples que executa operações matemáticas básicas como adição, subtração, multiplicação e divisão. O foco do projeto é aplicar os conceitos de orientação a objetos em Python utilizando o padrão de projeto Strategy, juntamente com a implementação de uma interface de usuário básica com o framework React.js.
 
 ## Padrão de Projeto Strategy
-O padrão de projeto Strategy permite definir uma família de algoritmos, encapsular cada um deles e torná-los intercambiáveis. Strategy permite que o algoritmo varie independentemente dos clientes que o utilizam. No contexto da nossa calculadora, definimos estratégias para cada operação matemática, o que facilita a expansão e manutenção do código, pois novas operações podem ser adicionadas sem alterar o código existente.
+O padrão de projeto Strategy permite definir uma família de algoritmos, encapsular cada um deles e torná-los intercambiáveis. Strategy permite que o algoritmo varie independentemente dos clientes que o utilizam. No contexto dessa calculadora, foram definidas estratégias para cada operação matemática, o que facilita a expansão e manutenção do código, pois novas operações podem ser adicionadas sem alterar o código existente.
 
 ## Estrutura do Projeto
 O projeto está dividido em duas partes principais:
