@@ -1,0 +1,40 @@
+Teste 1 - Soma: Este teste verifica se a função calcular da classe Calculadora retorna corretamente o 
+resultado da soma quando passados dois números inteiros como argumentos.
+
+Entrada: (2, 2, 'soma')
+Saída esperada: 4
+------------------------------------------------------------------------
+Teste 2 - Este teste verifica se a função calcular retorna corretamente o resultado da 
+subtração quando passados dois números inteiros como argumentos.
+
+Entrada: (10, 5, 'subtracao')
+Saída esperada: 5
+--------------------------------------------------------------------------
+Teste 3 - Este teste verifica se a função calcular retorna corretamente o resultado da
+multiplicação quando passados dois números inteiros como argumentos.
+
+Entrada: (3, 3, 'multiplicacao')
+Saída esperada: 9
+---------------------------------------------------------------------------
+Teste 4 - Este teste verifica se a função calcular retorna corretamente o resultado da 
+divisão quando passados dois números inteiros como argumentos.
+
+Entrada: (4, 2, 'divisao')
+Saída esperada: 2
+----------------------------------------------------------------------------
+Teste 5 (none) - Este teste verifica se a função calcular retorna um valor padrão 
+(provavelmente 0) quando uma operação inválida é solicitada.
+
+Entrada: (3, 5, 'subtrair')
+Saída esperada: 0
+-----------------------------------------------------------------------------
+Teste 6 - Este teste espera que seja lançada uma exceção ValueError quando números 
+negativos são passados como argumentos.
+
+Entrada: (-1, 1, 'soma')
+Exceção esperada: ValueError
+-----------------------------------------------------------------------------
+Teste 7 - Este teste espera que seja lançada uma exceção TypeError quando tipos de dados incorretos são passados como argumentos.
+
+Entrada: ('uma', 1, 'soma')
+Exceção esperada: TypeError
